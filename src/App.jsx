@@ -3,9 +3,10 @@ import ReactDOM from "react-dom";
 import {BrowserRouter, Routes, Route, Outlet, Link } from 'react-router-dom'
 import Footer from "home/Footer";
 import Header from "home/Header";
-
+import "remixicon/fonts/remixicon.css";
 import "./index.scss";
-import SafeComponent from "./SafeComponent";
+
+
 import PDPContent from "../PDPContent";
 
 const App = () => (
