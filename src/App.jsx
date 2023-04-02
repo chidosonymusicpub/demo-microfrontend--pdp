@@ -7,7 +7,7 @@ import "remixicon/fonts/remixicon.css";
 import "./index.scss";
 
 
-import PDPContent from "../src/PDPContent";
+import PDPContent from "./PDPContent";
 
 const App = () => (
   <BrowserRouter>
